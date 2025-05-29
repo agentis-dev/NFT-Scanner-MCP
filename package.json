@@ -1,0 +1,36 @@
+{
+  "name": "@agentis/nft-scanner-mcp",
+  "version": "1.0.0",
+  "description": "NFT Scanner MCP Server - Real-time blockchain data for NFTs",
+  "main": "nft-scanner-mcp-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node nft-scanner-mcp-server.js",
+    "dev": "node --inspect nft-scanner-mcp-server.js",
+    "test": "node demo-nft-scanner-mcp.js"
+  },
+  "keywords": [
+    "mcp",
+    "nft",
+    "blockchain",
+    "real-time",
+    "opensea",
+    "alchemy",
+    "ethereum",
+    "polygon",
+    "ai-assistant"
+  ],
+  "author": "Agentis Development Team",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.5.0",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+} 
